@@ -7,7 +7,8 @@ body,html{
 
 body{
     background-color: black;
-    width: 100%;
+    background-size: 100% 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1{
@@ -22,8 +23,12 @@ h1{
     text-align: center;
 }
 
+h3{
+    color: white;
+}
+
 p{
-    margin: 0px;
+    /* margin: 0px; */
     color: white;
     font-size: 8;
 }
@@ -35,35 +40,27 @@ p{
     justify-content: space-around;
     margin: 0 auto;
     margin-top: 12px;
-    max-width: 1240px;
-    width: 100%;
-    margin-bottom: 0;
+    max-width: 380px;
     text-align: center;
 }
 
 .card1{
-    padding-left: 12px;
+    padding-left: 6px;
     padding-right: 6px;
-    padding-top: 0px;
-    width: 100%;
-    max-width: 397.33px;
-    height: 100px;
+    padding-top: 40px;
+    height: 50px;
 }
 
 .card2{
     padding-left: 6px;
     padding-right: 6px;
-    padding-top: 0px;
-    width: 100%;
-    max-width: 397.33px;
-    height: 100px;
+    padding-top: 40px;
+    height: 50px;
 }
 
 .card3{
     padding-left: 6px;
-    padding-right: 12px;
-    padding-top: 0px;
-    width: 100%;
-    max-width: 397.33px;
-    height: 100px;
+    padding-right: 6px;
+    padding-top: 40px;
+    height: 50px;
 }
